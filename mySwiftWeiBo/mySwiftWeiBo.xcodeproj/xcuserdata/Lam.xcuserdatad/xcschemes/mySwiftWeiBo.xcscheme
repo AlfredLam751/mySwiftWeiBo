@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B9DBAF11D267E0800B2B1FB"
+               BlueprintIdentifier = "3B9DBB521D26877800B2B1FB"
                BuildableName = "mySwiftWeiBo.app"
                BlueprintName = "mySwiftWeiBo"
                ReferencedContainer = "container:mySwiftWeiBo.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B9DBB051D267E0800B2B1FB"
+               BlueprintIdentifier = "3B9DBB661D26877800B2B1FB"
                BuildableName = "mySwiftWeiBoTests.xctest"
                BlueprintName = "mySwiftWeiBoTests"
                ReferencedContainer = "container:mySwiftWeiBo.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3B9DBB101D267E0800B2B1FB"
+               BlueprintIdentifier = "3B9DBB711D26877800B2B1FB"
                BuildableName = "mySwiftWeiBoUITests.xctest"
                BlueprintName = "mySwiftWeiBoUITests"
                ReferencedContainer = "container:mySwiftWeiBo.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B9DBAF11D267E0800B2B1FB"
+            BlueprintIdentifier = "3B9DBB521D26877800B2B1FB"
             BuildableName = "mySwiftWeiBo.app"
             BlueprintName = "mySwiftWeiBo"
             ReferencedContainer = "container:mySwiftWeiBo.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B9DBAF11D267E0800B2B1FB"
+            BlueprintIdentifier = "3B9DBB521D26877800B2B1FB"
             BuildableName = "mySwiftWeiBo.app"
             BlueprintName = "mySwiftWeiBo"
             ReferencedContainer = "container:mySwiftWeiBo.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3B9DBAF11D267E0800B2B1FB"
+            BlueprintIdentifier = "3B9DBB521D26877800B2B1FB"
             BuildableName = "mySwiftWeiBo.app"
             BlueprintName = "mySwiftWeiBo"
             ReferencedContainer = "container:mySwiftWeiBo.xcodeproj">
