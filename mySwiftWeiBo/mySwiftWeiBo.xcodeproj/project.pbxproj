@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B9DBAF61D267E0800B2B1FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9DBAF51D267E0800B2B1FB /* AppDelegate.swift */; };
-		3B9DBAF81D267E0800B2B1FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9DBAF71D267E0800B2B1FB /* ViewController.swift */; };
 		3B9DBAFB1D267E0800B2B1FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9DBAF91D267E0800B2B1FB /* Main.storyboard */; };
 		3B9DBAFD1D267E0800B2B1FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9DBAFC1D267E0800B2B1FB /* Assets.xcassets */; };
 		3B9DBB001D267E0800B2B1FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9DBAFE1D267E0800B2B1FB /* LaunchScreen.storyboard */; };
@@ -35,8 +33,6 @@
 
 /* Begin PBXFileReference section */
 		3B9DBAF21D267E0800B2B1FB /* mySwiftWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySwiftWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B9DBAF51D267E0800B2B1FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B9DBAF71D267E0800B2B1FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B9DBAFA1D267E0800B2B1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B9DBAFC1D267E0800B2B1FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B9DBAFF1D267E0800B2B1FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +93,7 @@
 		3B9DBAF41D267E0800B2B1FB /* mySwiftWeiBo */ = {
 			isa = PBXGroup;
 			children = (
-				3B9DBAF51D267E0800B2B1FB /* AppDelegate.swift */,
-				3B9DBAF71D267E0800B2B1FB /* ViewController.swift */,
+				3B9DBB231D26836D00B2B1FB /* Classes */,
 				3B9DBAF91D267E0800B2B1FB /* Main.storyboard */,
 				3B9DBAFC1D267E0800B2B1FB /* Assets.xcassets */,
 				3B9DBAFE1D267E0800B2B1FB /* LaunchScreen.storyboard */,
@@ -123,6 +118,277 @@
 				3B9DBB171D267E0800B2B1FB /* Info.plist */,
 			);
 			path = mySwiftWeiBoUITests;
+			sourceTree = "<group>";
+		};
+		3B9DBB231D26836D00B2B1FB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3B9DBB241D26836D00B2B1FB /* Compose(发微博) */,
+				3B9DBB281D26836D00B2B1FB /* Discover(发现) */,
+				3B9DBB2C1D26836D00B2B1FB /* Home(首页) */,
+				3B9DBB301D26836D00B2B1FB /* Main(主要) */,
+				3B9DBB361D26836D00B2B1FB /* Message(消息) */,
+				3B9DBB3A1D26836D00B2B1FB /* NewFeature(新特性) */,
+				3B9DBB3E1D26836D00B2B1FB /* OAuth(授权) */,
+				3B9DBB421D26836D00B2B1FB /* Profile(我) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3B9DBB241D26836D00B2B1FB /* Compose(发微博) */ = {
+			isa = PBXGroup;
+			children = (
+				3B9DBB251D26836D00B2B1FB /* Controller */,
+				3B9DBB261D26836D00B2B1FB /* Model */,
+				3B9DBB271D26836D00B2B1FB /* View */,
+			);
+			path = "Compose(发微博)";
+			sourceTree = "<group>";
+		};
+		3B9DBB251D26836D00B2B1FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B9DBB261D26836D00B2B1FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B9DBB271D26836D00B2B1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B9DBB281D26836D00B2B1FB /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				3B9DBB291D26836D00B2B1FB /* Controller */,
+				3B9DBB2A1D26836D00B2B1FB /* Model */,
+				3B9DBB2B1D26836D00B2B1FB /* View */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		3B9DBB291D26836D00B2B1FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B9DBB2A1D26836D00B2B1FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B9DBB2B1D26836D00B2B1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B9DBB2C1D26836D00B2B1FB /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				3B9DBB2D1D26836D00B2B1FB /* Controller */,
+				3B9DBB2E1D26836D00B2B1FB /* Model */,
+				3B9DBB2F1D26836D00B2B1FB /* View */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		3B9DBB2D1D26836D00B2B1FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B9DBB2E1D26836D00B2B1FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B9DBB2F1D26836D00B2B1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B9DBB301D26836D00B2B1FB /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				3B9DBB311D26836D00B2B1FB /* Controller */,
+				3B9DBB321D26836D00B2B1FB /* Model */,
+				3B9DBB331D26836D00B2B1FB /* Other */,
+				3B9DBB351D26836D00B2B1FB /* View */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		3B9DBB311D26836D00B2B1FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B9DBB321D26836D00B2B1FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B9DBB331D26836D00B2B1FB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3B9DBB351D26836D00B2B1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B9DBB361D26836D00B2B1FB /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				3B9DBB371D26836D00B2B1FB /* Controller */,
+				3B9DBB381D26836D00B2B1FB /* Model */,
+				3B9DBB391D26836D00B2B1FB /* View */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		3B9DBB371D26836D00B2B1FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B9DBB381D26836D00B2B1FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B9DBB391D26836D00B2B1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B9DBB3A1D26836D00B2B1FB /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				3B9DBB3B1D26836D00B2B1FB /* Controller */,
+				3B9DBB3C1D26836D00B2B1FB /* Model */,
+				3B9DBB3D1D26836D00B2B1FB /* View */,
+			);
+			path = "NewFeature(新特性)";
+			sourceTree = "<group>";
+		};
+		3B9DBB3B1D26836D00B2B1FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B9DBB3C1D26836D00B2B1FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B9DBB3D1D26836D00B2B1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B9DBB3E1D26836D00B2B1FB /* OAuth(授权) */ = {
+			isa = PBXGroup;
+			children = (
+				3B9DBB3F1D26836D00B2B1FB /* Controller */,
+				3B9DBB401D26836D00B2B1FB /* Model */,
+				3B9DBB411D26836D00B2B1FB /* View */,
+			);
+			path = "OAuth(授权)";
+			sourceTree = "<group>";
+		};
+		3B9DBB3F1D26836D00B2B1FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B9DBB401D26836D00B2B1FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B9DBB411D26836D00B2B1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3B9DBB421D26836D00B2B1FB /* Profile(我) */ = {
+			isa = PBXGroup;
+			children = (
+				3B9DBB431D26836D00B2B1FB /* Controller */,
+				3B9DBB441D26836D00B2B1FB /* Model */,
+				3B9DBB451D26836D00B2B1FB /* View */,
+			);
+			path = "Profile(我)";
+			sourceTree = "<group>";
+		};
+		3B9DBB431D26836D00B2B1FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3B9DBB441D26836D00B2B1FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3B9DBB451D26836D00B2B1FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +453,7 @@
 		3B9DBAEA1D267E0800B2B1FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LH;
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Alfred Lam";
@@ -259,8 +526,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B9DBAF81D267E0800B2B1FB /* ViewController.swift in Sources */,
-				3B9DBAF61D267E0800B2B1FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,10 +667,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = mySwiftWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lam.mySwiftWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mySwiftWeiBo/Classes/Main(主要)/Other/mySwiftWeiBo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,10 +681,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = mySwiftWeiBo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lam.mySwiftWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mySwiftWeiBo/Classes/Main(主要)/Other/mySwiftWeiBo-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,6 +755,7 @@
 				3B9DBB1C1D267E0800B2B1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B9DBB1D1D267E0800B2B1FB /* Build configuration list for PBXNativeTarget "mySwiftWeiBoTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +764,7 @@
 				3B9DBB1F1D267E0800B2B1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B9DBB201D267E0800B2B1FB /* Build configuration list for PBXNativeTarget "mySwiftWeiBoUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +773,7 @@
 				3B9DBB221D267E0800B2B1FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
